@@ -2,7 +2,7 @@ name: Deploy Node app on AWS Elastic Beanstalk
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
